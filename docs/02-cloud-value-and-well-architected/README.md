@@ -1,9 +1,9 @@
 ---
 title: "Cloud Value and the Well-Architected Framework"
 series: aws-fundamentals
-order: 1
+order: 2
 description: "The CLF-C02 cloud concepts domain in one lesson — the six advantages of cloud, AWS's global infrastructure, and the six pillars of the Well-Architected Framework"
-canonical_url: https://hungovercoders.com/training/aws-fundamentals/01-cloud-value-and-well-architected
+canonical_url: https://hungovercoders.com/training/aws-fundamentals/02-cloud-value-and-well-architected
 ---
 
 I wanted to pass the AWS Certified Cloud Practitioner exam (CLF-C02) without sitting through twenty-five hours of talking-head videos, and I wanted the first lesson to be honest about what the exam actually tests. CLF-C02's Cloud Concepts domain is 24% of the marks and it's almost entirely vocabulary — the six advantages of cloud computing, AWS's global infrastructure (regions, availability zones, edge locations), and the six pillars of the Well-Architected Framework. Get those three things welded into your head and a quarter of the exam is already paid for. Read on fellow hungovercoder.
@@ -12,7 +12,7 @@ This lesson is concept-heavy on purpose. We'll do real things in the next lesson
 
 ## Pre-Requisites
 
-- An AWS account ready to use in lesson 02 (don't create it yet — there's a clean way to do it that we'll cover when we get there)
+- An AWS account ready to use in lesson 03 (don't create it yet — there's a clean way to do it that we'll cover when we get there)
 - The willingness to learn the six pillars by name. AWS will absolutely test you on whether you can name them.
 - Roughly forty-five minutes and one drink of your choice
 
@@ -162,4 +162,4 @@ If I were doing this lesson again I'd put the Well-Architected pillars first and
 
 ---
 
-Well done on your first lesson, fellow hungovercoder. You've already collected the easiest marks on the exam — assuming the six pillars and the six advantages are now in your head and not just on the page. On to lesson 02, where we stop reading and start actually setting up an account properly. Bring the beer.
+Well done on your first AWS lesson, fellow hungovercoder. You've already collected the easiest marks on the exam — assuming the six pillars and the six advantages are now in your head and not just on the page. On to lesson 03, where we stop reading and start actually setting up an account properly. Bring the beer.
