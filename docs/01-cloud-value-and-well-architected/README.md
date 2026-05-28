@@ -29,9 +29,32 @@ AWS markets its value with six advantages. They're stamped across the docs, the 
 
 The Tiny Rebel analogy that helps me hold this in my head: imagine you're brewing for a one-off festival. You could buy a copper kettle, lease a unit, install the plumbing, and hire a brewer — that's CapEx, and you eat the cost whether the festival sells out or not. Or you could rent kit by the hour from a shared brewhouse, pay only for the batches you make, and walk away when the festival ends. The cloud is the shared brewhouse. The savings argument isn't that the kit is cheaper — it's that you stop owning capacity you don't use.
 
-## The Map of the AWS Beer Routes
+## Where AWS Brews, Stores, and Pours It
 
-AWS's global infrastructure has four words you need to recognise on sight: **Region**, **Availability Zone**, **Edge Location**, and **Local Zone**. There are a couple of others (Wavelength Zones, Outposts) that show up in awareness-level questions, but the first four are the load-bearing ones.
+AWS's global infrastructure has three load-bearing words you need to recognise — **Region**, **Availability Zone**, and **Edge Location** — plus **Local Zone** as a specialised fourth. A couple of others (Wavelength Zones, Outposts) show up in awareness-level questions but are rarely the right answer. Think of it as the brewery (Region — where the workload runs), the AZ cellars inside it (Availability Zones — where it's stored reliably across separate buildings), and the edge pubs out in the world (Edge Locations — where it's delivered close to the drinker).
+
+```mermaid
+flowchart LR
+    World((AWS Global<br/>Infrastructure))
+    World --> R1[Region<br/>eu-west-2 London]
+    World --> R2[Region<br/>us-east-1 Virginia]
+    World --> Edge[Edge Locations<br/>~600+ worldwide<br/>CloudFront + Route 53]
+
+    R1 --> AZ1a[AZ eu-west-2a<br/>data centres]
+    R1 --> AZ1b[AZ eu-west-2b<br/>data centres]
+    R1 --> AZ1c[AZ eu-west-2c<br/>data centres]
+
+    R2 --> AZ2a[AZ us-east-1a<br/>data centres]
+    R2 --> AZ2b[AZ us-east-1b<br/>data centres]
+    R2 --> AZ2c[AZ us-east-1c<br/>...etc]
+
+    classDef edge fill:#fef3c7,stroke:#d97706
+    classDef region fill:#dbeafe,stroke:#2563eb
+    classDef az fill:#dcfce7,stroke:#16a34a
+    class Edge edge
+    class R1,R2 region
+    class AZ1a,AZ1b,AZ1c,AZ2a,AZ2b,AZ2c az
+```
 
 - A **Region** is a separate geographic area — London (`eu-west-2`), Ireland (`eu-west-1`), Frankfurt (`eu-central-1`), and so on. There are 39 of them at the time of writing. Regions are isolated by design — a fire in Dublin doesn't take London down.
 - An **Availability Zone (AZ)** is one or more discrete data centres inside a Region, with independent power, cooling, and networking. Each Region has a minimum of three AZs. When you "deploy across multiple AZs", you're spreading your workload across physically separated data centres a few miles apart but within the same Region.
