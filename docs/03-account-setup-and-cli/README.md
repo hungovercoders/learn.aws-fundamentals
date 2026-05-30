@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/03-account-s
 
 I wanted an AWS account I could actually use without breaking it, without spending a bricklayer's daily wage by accident, and without logging in as root every time I touched it. This lesson is the version of the AWS account setup story I wish I'd had on day one — the root user locked away after the first login, IAM Identity Center for the actual human-shaped access, and the CLI configured the way the AWS docs *should* tell you to (but don't, quite). Hands-on from here. Bring the keyboard.
 
+This lesson is dataGriff's walked path through account setup and CLI configuration. The canonical sources are the [IAM Identity Center user guide](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html), the [AWS CLI v2 install guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), and [AWS root user best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - An email address you control (the root account email is painful to change later, so use one that'll outlast a job)
@@ -232,6 +234,15 @@ If I were doing this again I'd bookmark the Identity Center access portal URL *b
 
 **B.** Identity Center SSO tokens are short-lived (default eight hours). `aws sso login --profile <name>` opens the browser, you confirm, the token refreshes — no keys to rotate.
 </details>
+
+## Sources and further reading
+
+- [AWS IAM Identity Center user guide](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) — canonical setup and conceptual reference
+- [AWS CLI v2 install instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) — official install for macOS / Linux / Windows / Docker
+- [Configuring the AWS CLI to use IAM Identity Center](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) — the `aws configure sso` flow in AWS's own words
+- [AWS root user best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) — what only root can do, and how to lock it down
+- [AWS Multi-Factor Authentication overview](https://aws.amazon.com/iam/features/mfa/) — supported devices including hardware keys and authenticator apps
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

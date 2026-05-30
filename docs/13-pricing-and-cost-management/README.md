@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/13-pricing-a
 
 I wanted to stop being scared of the AWS bill. Cloud spend creeps — an idle NAT gateway, a dev EC2 nobody terminated, an oversized RDS pre-warmed for traffic that didn't come — and the only defence is *visibility*. AWS has six distinct cost tools and CLF-C02 tests whether you can pick the right one for a question like *"alert me before this team hits 80% of their monthly budget"* or *"detect a sudden anomalous spend"*. This lesson covers the tools, the pricing models, and ends with a hands-on £5 budget alert. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through AWS pricing and cost management. The canonical sources are the [AWS Pricing landing page](https://aws.amazon.com/pricing/), the [AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html), and the [AWS Savings Plans User Guide](https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html) — use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–12 done
@@ -210,6 +212,19 @@ If I were doing this lesson again I'd put the £5 budget at the top, not the bot
 
 **B.** Pricing Calculator estimates *future* costs from a configurable list of services and quantities. The other three tools work on *actual* historical spend, not estimates.
 </details>
+
+## Sources and further reading
+
+- [AWS Pricing landing page](https://aws.amazon.com/pricing/) — top-level entry to per-service pricing pages
+- [AWS Pricing Calculator](https://calculator.aws/) — pre-deployment cost estimation
+- [AWS Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html) — historical spend visualisation and forecasting
+- [AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) — threshold-based cost / usage / savings plans alerts
+- [AWS Cost Anomaly Detection](https://docs.aws.amazon.com/cost-management/latest/userguide/manage-ad.html) — ML-based spike detection
+- [AWS Cost and Usage Report](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html) — hourly-granularity billing exports to S3
+- [AWS Savings Plans User Guide](https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html) — the three Savings Plan variants and how they apply
+- [AWS Free Tier](https://aws.amazon.com/free/) — Always-Free, 12-month-Free, and trial allowances
+- [Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) — activating tags for chargeback and reporting
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

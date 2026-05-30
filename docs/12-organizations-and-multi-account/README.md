@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/12-organizat
 
 I wanted to understand why every serious AWS shop runs ten, fifty, two hundred AWS accounts instead of stuffing everything into one. The answer is *isolation* — dev mistakes don't break prod, finance can see one team's spend without seeing everyone else's, and a compromised account is a contained blast radius rather than a company-ending event. AWS Organizations is the glue that holds the multi-account estate together. The exam tests it because every real AWS customer above hobby scale uses it. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through multi-account AWS. The canonical sources are the [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html), the [AWS Control Tower User Guide](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html), and the [AWS Multi-Account Strategy whitepaper](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) — use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–11 done
@@ -198,6 +200,15 @@ If I were doing this lesson again I'd push the management-account-stays-empty ru
 
 **B.** The management account pays the consolidated bill for the whole organization and is AWS-recommended to be kept clean of workloads — running workloads there mixes the billing/governance role with the workload role and makes it hard to enforce SCPs on the management account itself.
 </details>
+
+## Sources and further reading
+
+- [AWS Organizations User Guide](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html) — canonical multi-account container reference (accounts, OUs, SCPs)
+- [Service Control Policies (SCPs)](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) — official guide to authoring and applying SCPs
+- [AWS Control Tower User Guide](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html) — opinionated landing-zone setup
+- [Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) — AWS whitepaper on multi-account strategy (the "good defaults" document every architect should read)
+- [AWS Service Catalog](https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html) — IaC product catalogue for end-user self-service
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

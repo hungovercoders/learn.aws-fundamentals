@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/02-cloud-val
 
 I wanted to pass the AWS Certified Cloud Practitioner exam (CLF-C02) without sitting through twenty-five hours of talking-head videos, and I wanted the first lesson to be honest about what the exam actually tests. CLF-C02's Cloud Concepts domain is 24% of the marks and it's almost entirely vocabulary — the six advantages of cloud computing, AWS's global infrastructure (regions, availability zones, edge locations), and the six pillars of the Well-Architected Framework. Get those three things welded into your head and a quarter of the exam is already paid for. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the CLF-C02 Cloud Concepts domain. The canonical sources are the [AWS Well-Architected Framework documentation](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) and the [AWS Global Infrastructure overview](https://aws.amazon.com/about-aws/global-infrastructure/) — use this lesson alongside, not instead of, those.
+
 This lesson is concept-heavy on purpose. We'll do real things in the next lesson — accounts, CLIs, the lot. For now, beer in one hand, this in the other.
 
 ## Pre-Requisites
@@ -159,6 +161,14 @@ If I were doing this lesson again I'd put the Well-Architected pillars first and
 
 **C.** Edge Locations (used by CloudFront) cache content close to users, which is the textbook answer to "low-latency content delivery worldwide". Local Zones (D) are for low-latency to a *specific metro area*, not worldwide — easy confusion point.
 </details>
+
+## Sources and further reading
+
+- [AWS Well-Architected Framework documentation](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html) — the canonical six-pillars reference
+- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) — current Region / AZ / Edge Location list, always up to date
+- [Cloud computing with AWS](https://aws.amazon.com/what-is-aws/) — AWS's own framing of the six advantages of cloud
+- [AWS Sustainability Pillar whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) — the deeper read on the sixth pillar (added 2021)
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

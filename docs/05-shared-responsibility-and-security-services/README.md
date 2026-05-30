@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/05-shared-re
 
 I wanted to stop being confused about which security thing is AWS's job and which is mine, and I wanted a way to remember the dozen-odd security services on the CLF-C02 syllabus without making a flashcard for each. This lesson does both — the shared responsibility model drawn properly (it isn't a fixed line, it moves with the service), then a tour of the security service catalogue grouped by *what they actually do* rather than alphabetical order. The Security & Compliance domain is 30% of the exam. Half of that 30% is naming services. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the shared responsibility model and the AWS security catalogue. The canonical sources are the [AWS Shared Responsibility Model page](https://aws.amazon.com/compliance/shared-responsibility-model/) and the [AWS Cloud Security overview](https://aws.amazon.com/security/) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 03 and 04 done — account, CLI, and the IAM mental model
@@ -218,6 +220,16 @@ If I were doing the first-time setup again I'd enable GuardDuty *first*, before 
 
 **B.** AWS Artifact is the portal for AWS's compliance reports. The other three are operational/security tools; Artifact's whole purpose is downloadable third-party attestations.
 </details>
+
+## Sources and further reading
+
+- [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/) — canonical customer-vs-AWS split with worked examples by service type
+- [AWS Security, Identity, and Compliance services landing page](https://aws.amazon.com/products/security/) — the full catalogue grouped by AWS
+- [Amazon GuardDuty docs](https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html), [Amazon Macie docs](https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html), [Amazon Inspector docs](https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html) — the three threat/data services most-tested on CLF-C02
+- [AWS Key Management Service Best Practices whitepaper](https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/welcome.html) — the most-cited reference for at-rest encryption decisions
+- [AWS Artifact](https://aws.amazon.com/artifact/) — the portal for SOC, ISO, PCI compliance reports
+- [AWS Trust Center](https://aws.amazon.com/security/) — the public top-level page customers send their own auditors to
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

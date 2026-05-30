@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/04-iam-princ
 
 I wanted IAM to stop being the bit of AWS I was scared of. For years I thought of policies as JSON soup you reach for when something's broken — copy-paste a Stack Overflow answer until the error goes away. The truth is IAM has about six concepts, and once they click, you can read any policy on first sight and write your own without crying. CLF-C02 leans on IAM hard because the Security domain is 30% of the exam, and most of that 30% is IAM in some flavour. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the IAM policy model. The canonical source is the [IAM User Guide — policies and permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) and the [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html); use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lesson 03 done — AWS account with IAM Identity Center user, AWS CLI v2 wired up
@@ -244,6 +246,16 @@ If I were doing the very first IAM setup again, I'd skip ever attaching `Adminis
 
 **B.** A permission boundary is a *ceiling* on effective permissions. The user's identity policies grant a lot; the boundary restricts the effective set to the intersection — here, just S3 and DynamoDB. Boundaries do not grant permissions; they limit them.
 </details>
+
+## Sources and further reading
+
+- [IAM User Guide — policies and permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) — canonical reference for identity-based and resource-based policies
+- [IAM JSON policy reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html) — full grammar of the policy language
+- [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html) — least-privilege, root-user hygiene, MFA, permission boundaries
+- [IAM Policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html) — official explanation of the default deny / explicit deny / SCP layering
+- [IAM Access Analyzer overview](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html) — finding unused permissions and external access
+- [IAM Policy Simulator](https://policysim.aws.amazon.com/) — test policy outcomes without running anything
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

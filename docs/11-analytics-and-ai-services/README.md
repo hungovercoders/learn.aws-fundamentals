@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/11-analytics
 
 I wanted to recognise the dozen-odd analytics and AI services CLF-C02 throws at you in single-line question stems — *"transcribe call centre audio to text"*, *"extract data from scanned brewery invoices"*, *"forecast next quarter's hop demand"* — and not have to guess. The exam tests these lightly but persistently: probably 4–6 questions across the two domains, all of which come down to *which AWS service has that name*. Memorising the service catalogue feels boring; it's actually the highest-yield five minutes of revision on this exam. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through AWS analytics and AI/ML at exam depth. The canonical sources are the [AWS Analytics services landing page](https://aws.amazon.com/products/analytics/), the [AWS Machine Learning services landing page](https://aws.amazon.com/products/machine-learning/), and the [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–10 done
@@ -182,6 +184,17 @@ If I were doing this lesson again I'd put the pre-built API table at the very to
 
 **B.** Firehose is the managed streaming-delivery service — point it at S3 (or Redshift/OpenSearch) and it handles batching, buffering, and delivery with no consumer to write. Data Streams (A) requires writing a consumer; MSK (C) is for Kafka workloads; SQS (D) is a queue, not a streaming pipeline.
 </details>
+
+## Sources and further reading
+
+- [AWS Analytics services landing page](https://aws.amazon.com/products/analytics/) — Athena, Glue, EMR, Kinesis, QuickSight, Lake Formation grouped by AWS
+- [Amazon Athena documentation](https://docs.aws.amazon.com/athena/latest/ug/what-is.html) — serverless SQL on S3
+- [Amazon Kinesis family overview](https://aws.amazon.com/kinesis/) — the four streaming services and when to pick each
+- [AWS Machine Learning services](https://aws.amazon.com/machine-learning/) — Platform (SageMaker, Bedrock) vs Pre-built APIs at AWS's own framing
+- [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) — managed foundation models from Anthropic, Meta, Mistral, Cohere, Stability AI, Titan
+- [Amazon SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) — full ML platform for custom training and deployment
+- The Pre-built AI APIs each have their own docs: [Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html), [Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html), [Polly](https://docs.aws.amazon.com/polly/latest/dg/what-is.html), [Transcribe](https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html), [Translate](https://docs.aws.amazon.com/translate/latest/dg/what-is-translate.html), [Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html), [Lex](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html), [Personalize](https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html)
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

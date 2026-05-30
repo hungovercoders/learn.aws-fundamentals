@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/06-compute-s
 
 I wanted to stop reaching for EC2 every time I needed to run something. EC2 is the obvious answer for everything when you've only got one tool — but AWS has at least seven compute options and the exam tests whether you can pick the right one. Worse, EC2 has five different pricing models, and the question stem usually decides the right answer based on a single phrase like *"the workload runs for 15 minutes a day"* or *"a 3-year steady-state production server"*. This lesson nails down which is which. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the AWS compute catalogue. The canonical sources are the [AWS Compute landing page](https://aws.amazon.com/products/compute/) and the [EC2 instance purchasing options reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–05 done
@@ -193,6 +195,16 @@ If I were doing it again I'd skip EC2 entirely for the first three months of a n
 
 **C.** Dedicated Hosts give you a whole physical server and surface socket/core information for BYOL licensing scenarios. Dedicated Instances (B) provide single-tenant hardware but without physical socket visibility, so they don't meet the licensing constraint.
 </details>
+
+## Sources and further reading
+
+- [AWS Compute services landing page](https://aws.amazon.com/products/compute/) — every compute option AWS offers, AWS-curated
+- [EC2 instance purchasing options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html) — On-Demand, Reserved, Spot, Savings Plans, Dedicated all defined officially
+- [AWS Lambda function execution environment](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) — canonical Lambda reference
+- [Amazon ECS vs EKS — choose your container service](https://aws.amazon.com/containers/) — AWS's own framing of the container-service choice
+- [AWS Fargate overview](https://aws.amazon.com/fargate/) — the serverless launch type for ECS and EKS
+- [AWS Batch user guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html) — when AWS Batch is the right answer
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

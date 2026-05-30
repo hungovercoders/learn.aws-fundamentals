@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/10-applicati
 
 I wanted to stop building tightly-coupled systems and learn how to use AWS's messaging plumbing properly. Event-driven architectures are the modern default — they're how a brewery order gets simultaneously billed, fulfilled, emailed to the customer, and pushed to the loyalty system without any of those four systems knowing about each other. AWS gives you four ways to wire up the messaging, and CLF-C02 tests whether you can pick the right one. Then it tests whether you can tell apart CloudWatch, CloudTrail, and Config. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through AWS application integration and observability. The canonical sources are the [AWS Application Integration services landing page](https://aws.amazon.com/products/application-integration/), [Amazon CloudWatch documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [AWS CloudTrail user guide](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html), and [AWS Config developer guide](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html) — use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–09 done
@@ -200,6 +202,16 @@ If I were doing it again I'd skip Amazon MQ entirely — it's only there as a mi
 
 **B.** Step Functions is AWS's managed state machine — branches, retries, parallel execution, visual workflow. Writing this logic inside a single Lambda (D) would couple workflow with business logic; SQS and EventBridge are messaging, not orchestration.
 </details>
+
+## Sources and further reading
+
+- [AWS Application Integration services landing page](https://aws.amazon.com/products/application-integration/) — the full messaging catalogue
+- [Amazon SNS documentation](https://docs.aws.amazon.com/sns/latest/dg/welcome.html) and [Amazon SQS documentation](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html) — pub/sub fan-out and queue references
+- [Amazon EventBridge user guide](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html) — content-based event routing and SaaS integrations
+- [AWS Step Functions developer guide](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html) — managed state machines with retries and parallel execution
+- [Amazon CloudWatch concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html), [AWS CloudTrail concepts](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html), and [AWS Config concepts](https://docs.aws.amazon.com/config/latest/developerguide/config-concepts.html) — the three observability services CLF-C02 confuses you with
+- [AWS X-Ray developer guide](https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html) — distributed tracing across multiple services
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

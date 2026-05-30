@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/09-networkin
 
 I wanted networking on AWS to stop being the bit I avoided. Every account has a Default VPC ready to go, and for a long time I treated it like Wi-Fi — *something that just works, don't poke it*. The problem with that approach is the exam tests it heavily, the production version always needs the bits I never learned, and getting bitten by *"why won't my Lambda talk to my RDS"* at 11pm on a Friday is preventable. This lesson is the VPC pieces drawn properly plus the eight or so other networking services CLF-C02 wants you to recognise. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through AWS networking. The canonical sources are the [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), the [Amazon Route 53 Developer Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html), and the [AWS Networking and Content Delivery services landing page](https://aws.amazon.com/products/networking/) — use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–08 done
@@ -206,6 +208,17 @@ If I were doing this lesson again I'd put the NAT Gateway cost callout at the to
 
 **B.** Transit Gateway is a hub-and-spoke network connector — each VPC attaches once to the TGW and can route to any other attached VPC. With 25 VPCs you'd otherwise need 300 peerings (n × (n-1) / 2); TGW reduces it to 25 attachments.
 </details>
+
+## Sources and further reading
+
+- [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) — canonical VPC, subnet, route table, IGW, NAT reference
+- [Security Groups vs Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html#VPC_Security_Comparison) — official side-by-side comparison
+- [Amazon Route 53 routing policies](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html) — latency, weighted, geolocation, failover, multivalue, geoproximity
+- [Amazon CloudFront documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) — CDN with global edge caching
+- [AWS Global Accelerator](https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html) — anycast IPs for non-HTTP global routing
+- [AWS Direct Connect overview](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html) and [Site-to-Site VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html) — hybrid connectivity options
+- [AWS Transit Gateway](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html) — hub-and-spoke multi-VPC connectivity
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

@@ -10,6 +10,8 @@ I wanted to actually sit the AWS Certified Cloud Practitioner exam, not just bru
 
 **If you're just here to learn AWS fundamentals and don't care about the certificate, skip to lesson 02.** There's no AWS content in this one. If you want the cert, settle in — and book the exam by the end of the lesson if you can. The deadline does more work than any productivity app.
 
+This lesson is dataGriff's take on the CLF-C02 prep ecosystem — opinionated about what's worth your time, not a substitute for AWS's own exam guide. The canonical source for everything about the exam itself is the [AWS Certified Cloud Practitioner page](https://aws.amazon.com/certification/certified-cloud-practitioner/); use this lesson alongside it, not instead of it.
+
 ## What the Exam Actually Is
 
 CLF-C02 is the **Foundational** tier of AWS certifications — the entry point before the Associate tier (Solutions Architect Associate, Developer Associate, SysOps Administrator Associate). It's deliberately broad rather than deep — recognise the services, know which problem each one solves, understand the four domains (Cloud Concepts, Security, Cloud Technology, Billing & Support). You don't need to know how to configure anything; you need to know what a question is asking and which service is the right answer.
@@ -153,6 +155,16 @@ These ones aren't on the real exam — they're about the exam itself. Useful pla
 
 **B.** $100 USD for Foundational tier. The Associate tier (Solutions Architect Associate, Developer Associate, SysOps Administrator Associate) is $150; Professional and Specialty exams are $300. AWS also runs "50% off your next exam" voucher promotions periodically — worth checking the certification portal for promos before paying full price.
 </details>
+
+## Sources and further reading
+
+- [AWS Certified Cloud Practitioner — official exam page](https://aws.amazon.com/certification/certified-cloud-practitioner/) — registration, official exam guide PDF, sample questions, current exam fees
+- [AWS Skill Builder — official CLF-C02 sample questions (free)](https://explore.skillbuilder.aws/learn/course/12483/aws-certified-cloud-practitioner-official-question-set-clf-c02-english) — 20 free questions in AWS's house style
+- [Tutorials Dojo CLF-C02 practice exams](https://portal.tutorialsdojo.com/courses/aws-certified-cloud-practitioner-practice-exams-clf-c02/) — six full-length practice exams; single biggest pass-rate lever after this series
+- [AWS Skill Builder — Cloud Practitioner Essentials (free)](https://explore.skillbuilder.aws/learn/learning_plan/view/82/plan) — AWS's own video-led learning path
+- [Stéphane Maarek — CLF-C02 course (Udemy)](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/) — popular video alternative
+- [r/AWSCertifications](https://www.reddit.com/r/AWSCertifications/) — fresh pass-rate stories and exam impressions
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

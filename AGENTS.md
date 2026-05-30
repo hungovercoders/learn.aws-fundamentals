@@ -57,6 +57,21 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/NN-slug
 
 **No placeholder ARNs or account IDs** in policy files. Use `123456789012` as the canonical example account ID and call it out in the lesson so the reader knows to swap it.
 
+## Sources convention (required on every lesson)
+
+hungovercoders is dataGriff's path through the CLF-C02 syllabus — not the canonical source. Every lesson must include:
+
+1. **A top framing line** placed immediately after the want-led opener, before pre-reqs. One or two sentences explicitly framing this series as the *guided path* and pointing at the canonical AWS reference for the lesson's topic. Example:
+
+   > This lesson is dataGriff's path through the CLF-C02 Cloud Concepts domain. The canonical source is the [AWS Well-Architected Framework docs](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html); use this lesson alongside, not instead of, that.
+
+2. **A `## Sources and further reading` section** placed *between* the sample exam questions and the closer. Structured list with:
+   - The canonical AWS docs page(s) for this lesson's topic
+   - 1–2 community alternatives (Maarek, Cantrill, Tutorials Dojo, AWS Skill Builder, etc.) where they exist
+   - A short qualifier per link explaining why the reader would click it
+
+The series-wide reference list lives in `SOURCES.md` at the repo root. Per-lesson sources draw from there plus any lesson-specific authoritative pages.
+
 ## Exam-style sample questions (required on every lesson)
 
 Every lesson MUST end with a `## Sample exam questions` section containing **exactly 5 CLF-C02-style multiple-choice questions** drawn from the lesson's material. This is the single biggest pass-rate lever the series has — readers learn AWS services from the prose, but they learn the *exam* from doing questions.

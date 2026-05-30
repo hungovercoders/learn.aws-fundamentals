@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/14-support-p
 
 I wanted to close the series with the bit that's both heavily tested *and* genuinely useful on exam day. AWS Support tiers are a CLF-C02 staple — the exam reliably asks which tier includes a 24/7 phone line, which includes a TAM, which has all Trusted Advisor checks — and the same knowledge keeps you from over- or under-paying AWS by a four-figure sum a year in real life. Then the second half: how to walk into the exam confident, what to do in the test centre, and where to go after you pass. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through AWS Support plans and exam day. The canonical sources are the [AWS Support Plans comparison page](https://aws.amazon.com/premiumsupport/plans/), the [AWS Trusted Advisor documentation](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html), and (for exam day) the [AWS Certified Cloud Practitioner page](https://aws.amazon.com/certification/certified-cloud-practitioner/) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–13 done
@@ -189,6 +191,16 @@ If I were doing this lesson again I'd put the support tier table at the very top
 
 **B.** Developer is the entry-level paid tier ($29/month minimum) and the first that includes technical support. Basic (A) is free but offers only account/billing support, no technical guidance.
 </details>
+
+## Sources and further reading
+
+- [AWS Support Plans comparison](https://aws.amazon.com/premiumsupport/plans/) — canonical tier-by-tier feature matrix with current pricing
+- [AWS Trusted Advisor documentation](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html) — the cross-category best-practice tool and which checks come with which support tier
+- [AWS Health Dashboard](https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/) — Service Health (public) and Your Account Health (private) status
+- [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) — official exam page, registration, current fees, sample questions
+- [AWS Certification Roadmap](https://aws.amazon.com/certification/) — the Foundational / Associate / Professional / Specialty progression after passing CLF-C02
+- [Tutorials Dojo CLF-C02 practice exams](https://portal.tutorialsdojo.com/courses/aws-certified-cloud-practitioner-practice-exams-clf-c02/) — the practice exam set worth taking before exam day
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

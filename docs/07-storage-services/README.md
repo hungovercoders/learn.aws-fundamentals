@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/07-storage-s
 
 I wanted to stop calling everything "storage" and stop using S3 for things S3 isn't for. AWS has at least six distinct storage services and the exam writes its trickiest questions by hiding the type behind innocent-sounding phrasing — *"a shared file system"*, *"a single attached volume"*, *"a long-term archive accessed once a year"*. Each phrase has exactly one right answer. This lesson is the lookup table for those phrases plus the seven S3 storage classes drilled into your head. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the AWS storage catalogue. The canonical sources are the [AWS Storage services landing page](https://aws.amazon.com/products/storage/), the [S3 storage classes reference](https://aws.amazon.com/s3/storage-classes/), and the [EBS volume types reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) — use this alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–06 done
@@ -242,6 +244,17 @@ If I were doing it again I'd skip Standard-IA entirely and go straight from Stan
 
 **A.** File Gateway presents an NFS or SMB share to on-prem applications and asynchronously syncs the data to S3 — exactly the "hybrid file access backed by S3" pattern. Snowball (C) is a one-shot bulk move, not an ongoing sync; EFS (B) is cloud-native, not on-prem hybrid.
 </details>
+
+## Sources and further reading
+
+- [AWS Storage services landing page](https://aws.amazon.com/products/storage/) — every storage option AWS offers, AWS-curated
+- [S3 storage classes](https://aws.amazon.com/s3/storage-classes/) — official storage class comparison with minimum durations and retrieval times
+- [Managing your storage lifecycle](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html) — canonical lifecycle policy reference
+- [EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html) — gp3, gp2, io2, st1, sc1 with use cases
+- [Amazon EFS user guide](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html) and [Amazon FSx](https://aws.amazon.com/fsx/) — shared file system options
+- [AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html) — the three gateway types (File, Volume, Tape)
+- [AWS Snow Family](https://aws.amazon.com/snow/) — bulk transfer when bandwidth is the bottleneck
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 

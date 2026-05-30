@@ -8,6 +8,8 @@ canonical_url: https://hungovercoders.com/training/aws-fundamentals/08-database-
 
 I wanted to stop using "AWS database" as a synonym for "RDS" and to be able to read a CLF-C02 question stem and instantly know which of the dozen-odd database services it's asking about. The Cloud Technology domain is 34% of the exam and databases are a big chunk of it — questions phrased as *"single-digit-millisecond latency at any scale"*, *"graph relationships between customers"*, *"petabyte-scale analytical queries"*. Each phrase has exactly one right answer. This lesson is the lookup table, themed around a Tiny Rebel brewery data platform so it sticks. Read on fellow hungovercoder.
 
+This lesson is dataGriff's path through the AWS database catalogue. The canonical source is the [Databases on AWS landing page](https://aws.amazon.com/products/databases/), with per-engine references like the [DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) and the [Amazon Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html); use this lesson alongside, not instead of, those.
+
 ## Pre-Requisites
 
 - Lessons 01–07 done
@@ -208,6 +210,17 @@ If I were doing it again I'd skip provisioned DynamoDB capacity entirely and def
 
 **B.** ElastiCache for Redis supports persistence, replication, automatic failover, and pub/sub — none of which Memcached (A) offers. The stem's "persistence" and "pub/sub" are the Redis-vs-Memcached discriminators on the exam.
 </details>
+
+## Sources and further reading
+
+- [Databases on AWS landing page](https://aws.amazon.com/products/databases/) — every engine grouped by data model
+- [DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) — canonical NoSQL key-value reference
+- [Amazon Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html) — 6-copy storage, 15 read replicas, MySQL/Postgres compatibility
+- [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) — the managed-relational reference for all five engines
+- [Amazon Redshift overview](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) — petabyte-scale data warehouse
+- [Amazon ElastiCache](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html) — Redis vs Memcached discriminators
+- [DynamoDB Best Practices](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html) — partition keys, single-table design, capacity modes
+- `SOURCES.md` at the repo root for the series-wide reference list
 
 ---
 
