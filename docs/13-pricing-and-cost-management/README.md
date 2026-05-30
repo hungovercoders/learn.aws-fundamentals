@@ -224,7 +224,7 @@ If I were doing this lesson again I'd put the £5 budget at the top, not the bot
 - [AWS Savings Plans User Guide](https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html) — the three Savings Plan variants and how they apply
 - [AWS Free Tier](https://aws.amazon.com/free/) — Always-Free, 12-month-Free, and trial allowances
 - [Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) — activating tags for chargeback and reporting
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

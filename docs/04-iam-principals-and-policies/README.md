@@ -255,7 +255,7 @@ If I were doing the very first IAM setup again, I'd skip ever attaching `Adminis
 - [IAM Policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html) — official explanation of the default deny / explicit deny / SCP layering
 - [IAM Access Analyzer overview](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html) — finding unused permissions and external access
 - [IAM Policy Simulator](https://policysim.aws.amazon.com/) — test policy outcomes without running anything
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

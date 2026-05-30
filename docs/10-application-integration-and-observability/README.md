@@ -211,7 +211,7 @@ If I were doing it again I'd skip Amazon MQ entirely — it's only there as a mi
 - [AWS Step Functions developer guide](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html) — managed state machines with retries and parallel execution
 - [Amazon CloudWatch concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html), [AWS CloudTrail concepts](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html), and [AWS Config concepts](https://docs.aws.amazon.com/config/latest/developerguide/config-concepts.html) — the three observability services CLF-C02 confuses you with
 - [AWS X-Ray developer guide](https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html) — distributed tracing across multiple services
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

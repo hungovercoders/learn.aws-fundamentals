@@ -208,7 +208,7 @@ If I were doing this lesson again I'd push the management-account-stays-empty ru
 - [AWS Control Tower User Guide](https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html) — opinionated landing-zone setup
 - [Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) — AWS whitepaper on multi-account strategy (the "good defaults" document every architect should read)
 - [AWS Service Catalog](https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html) — IaC product catalogue for end-user self-service
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

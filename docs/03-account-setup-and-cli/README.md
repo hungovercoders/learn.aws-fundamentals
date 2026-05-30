@@ -242,7 +242,7 @@ If I were doing this again I'd bookmark the Identity Center access portal URL *b
 - [Configuring the AWS CLI to use IAM Identity Center](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) — the `aws configure sso` flow in AWS's own words
 - [AWS root user best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) — what only root can do, and how to lock it down
 - [AWS Multi-Factor Authentication overview](https://aws.amazon.com/iam/features/mfa/) — supported devices including hardware keys and authenticator apps
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

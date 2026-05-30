@@ -200,12 +200,10 @@ If I were doing this lesson again I'd put the support tier table at the very top
 - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) — official exam page, registration, current fees, sample questions
 - [AWS Certification Roadmap](https://aws.amazon.com/certification/) — the Foundational / Associate / Professional / Specialty progression after passing CLF-C02
 - [Tutorials Dojo CLF-C02 practice exams](https://portal.tutorialsdojo.com/courses/aws-certified-cloud-practitioner-practice-exams-clf-c02/) — the practice exam set worth taking before exam day
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 
-Well done on finishing the series, fellow hungovercoder. You've covered the cloud value proposition, the global infrastructure, IAM in all its flavours, the shared responsibility model, the compute / storage / database / networking / integration / analytics / AI services, Organizations and multi-account, pricing and cost management, and now Support. Fourteen lessons, 65+ sample exam questions, the right mental shortcuts to read a CLF-C02 stem and pick the right answer in 80 seconds.
+Well done on the substance lesson, fellow hungovercoder. You've covered the cloud value proposition, the global infrastructure, IAM in all its flavours, the shared responsibility model, the compute / storage / database / networking / integration / analytics / AI services, Organizations and multi-account, pricing and cost management, and now Support. Fourteen substance lessons, 65+ sample exam questions, the right mental shortcuts to read a CLF-C02 stem and pick the right answer in 80 seconds.
 
-The exam's the easy bit now. You'll do fine. Go and pour yourself something cold — you've earned it.
-
-Cheers.
+On to lesson 15 — a single page collecting every authoritative AWS reference and external resource this series leans on. It's the bookmark for the day after you pass, when you actually need to look something up. Bring the beer.

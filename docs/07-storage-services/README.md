@@ -254,7 +254,7 @@ If I were doing it again I'd skip Standard-IA entirely and go straight from Stan
 - [Amazon EFS user guide](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html) and [Amazon FSx](https://aws.amazon.com/fsx/) — shared file system options
 - [AWS Storage Gateway](https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html) — the three gateway types (File, Volume, Tape)
 - [AWS Snow Family](https://aws.amazon.com/snow/) — bulk transfer when bandwidth is the bottleneck
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

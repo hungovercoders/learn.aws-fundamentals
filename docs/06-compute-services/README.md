@@ -204,7 +204,7 @@ If I were doing it again I'd skip EC2 entirely for the first three months of a n
 - [Amazon ECS vs EKS — choose your container service](https://aws.amazon.com/containers/) — AWS's own framing of the container-service choice
 - [AWS Fargate overview](https://aws.amazon.com/fargate/) — the serverless launch type for ECS and EKS
 - [AWS Batch user guide](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html) — when AWS Batch is the right answer
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

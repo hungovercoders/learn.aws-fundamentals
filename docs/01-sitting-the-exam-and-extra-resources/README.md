@@ -164,7 +164,7 @@ These ones aren't on the real exam — they're about the exam itself. Useful pla
 - [AWS Skill Builder — Cloud Practitioner Essentials (free)](https://explore.skillbuilder.aws/learn/learning_plan/view/82/plan) — AWS's own video-led learning path
 - [Stéphane Maarek — CLF-C02 course (Udemy)](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/) — popular video alternative
 - [r/AWSCertifications](https://www.reddit.com/r/AWSCertifications/) — fresh pass-rate stories and exam impressions
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

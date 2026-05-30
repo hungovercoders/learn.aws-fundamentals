@@ -218,7 +218,7 @@ If I were doing this lesson again I'd put the NAT Gateway cost callout at the to
 - [AWS Global Accelerator](https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html) — anycast IPs for non-HTTP global routing
 - [AWS Direct Connect overview](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html) and [Site-to-Site VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html) — hybrid connectivity options
 - [AWS Transit Gateway](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html) — hub-and-spoke multi-VPC connectivity
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

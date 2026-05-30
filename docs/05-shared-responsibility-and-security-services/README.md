@@ -229,7 +229,7 @@ If I were doing the first-time setup again I'd enable GuardDuty *first*, before 
 - [AWS Key Management Service Best Practices whitepaper](https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/welcome.html) — the most-cited reference for at-rest encryption decisions
 - [AWS Artifact](https://aws.amazon.com/artifact/) — the portal for SOC, ISO, PCI compliance reports
 - [AWS Trust Center](https://aws.amazon.com/security/) — the public top-level page customers send their own auditors to
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

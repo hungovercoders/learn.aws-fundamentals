@@ -69,8 +69,9 @@ hungovercoders is dataGriff's path through the CLF-C02 syllabus — not the cano
    - The canonical AWS docs page(s) for this lesson's topic
    - 1–2 community alternatives (Maarek, Cantrill, Tutorials Dojo, AWS Skill Builder, etc.) where they exist
    - A short qualifier per link explaining why the reader would click it
+   - A pointer to **Lesson 15 — References and Further Reading** (`docs/15-references-and-further-reading/`) for the consolidated series-wide reference page
 
-The series-wide reference list lives in `SOURCES.md` at the repo root. Per-lesson sources draw from there plus any lesson-specific authoritative pages.
+The series-wide reference list is **Lesson 15 — References and Further Reading** at `docs/15-references-and-further-reading/README.md`. It's the customer-facing bookmark page listing every authoritative source the series points at, plus alternative learning paths, practice exam vendors, communities, and the post-CLF-C02 certification roadmap. Per-lesson Sources sections draw from the same canonical pool plus any lesson-specific authoritative pages.
 
 ## Exam-style sample questions (required on every lesson)
 

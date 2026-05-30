@@ -220,7 +220,7 @@ If I were doing it again I'd skip provisioned DynamoDB capacity entirely and def
 - [Amazon Redshift overview](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) — petabyte-scale data warehouse
 - [Amazon ElastiCache](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html) — Redis vs Memcached discriminators
 - [DynamoDB Best Practices](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html) — partition keys, single-table design, capacity modes
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

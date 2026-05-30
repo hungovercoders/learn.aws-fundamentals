@@ -168,7 +168,7 @@ If I were doing this lesson again I'd put the Well-Architected pillars first and
 - [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) — current Region / AZ / Edge Location list, always up to date
 - [Cloud computing with AWS](https://aws.amazon.com/what-is-aws/) — AWS's own framing of the six advantages of cloud
 - [AWS Sustainability Pillar whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sustainability-pillar.html) — the deeper read on the sixth pillar (added 2021)
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 

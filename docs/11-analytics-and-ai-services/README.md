@@ -194,7 +194,7 @@ If I were doing this lesson again I'd put the pre-built API table at the very to
 - [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) — managed foundation models from Anthropic, Meta, Mistral, Cohere, Stability AI, Titan
 - [Amazon SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html) — full ML platform for custom training and deployment
 - The Pre-built AI APIs each have their own docs: [Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html), [Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html), [Polly](https://docs.aws.amazon.com/polly/latest/dg/what-is.html), [Transcribe](https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html), [Translate](https://docs.aws.amazon.com/translate/latest/dg/what-is-translate.html), [Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html), [Lex](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html), [Personalize](https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html)
-- `SOURCES.md` at the repo root for the series-wide reference list
+- See **[Lesson 15 — References and Further Reading](https://hungovercoders.com/training/aws-fundamentals/15-references-and-further-reading)** for the consolidated series-wide reference page
 
 ---
 
